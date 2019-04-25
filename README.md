@@ -1,6 +1,8 @@
-# [License](https://github.com/ravireddy07/DL_Deploying_Sentimental_Model/edit/master/LICENSE)4
+# [License](https://github.com/ravireddy07/DL_Deploying_Sentimental_Model/edit/master/LICENSE)
+
 
 # Deploying a Sentiment Analysis Model
+
 
 ## Project Overview
 
