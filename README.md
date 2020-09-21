@@ -1,11 +1,8 @@
-# [License](https://github.com/eswar3/sentiment-analysis-sagemaker-deployment/blob/master/LICENSE)
-
 # Deploying a Sentiment Analysis Model
 
 ## Project Overview
 
-In this project, I have used Amazon SageMaker to complete an entire lifecycle of a machine learning project. The goal is to build a very simple web page in which a user can submit a movie review and the prediction model behind the scenes will predict whether it is Positive or Negative review. The prediction model is implemented using Pytorch framework and trainned on IMDB dataset.
-
+In this project, Used Amazon SageMaker to complete an entire lifecycle of a machine learning project. The goal is to build a very simple web page in which a user can submit a movie review and the prediction model behind the scenes will predict whether it is Positive or Negative review. The prediction model is implemented using Pytorch framework and trainned on IMDB dataset.
 
 ## Project Instruction
 
@@ -14,15 +11,14 @@ This entire project is done on Amazon sagemaker and uses some heavy GPU instance
 ### Instructions to execute in sagemaker
 
 1. Clone the repository.
-	```
-		git clone https://github.com/eswar3/sentiment-analysis-sagemaker-deployment.git
-	```
+   ```
+   	git clone https://github.com/ravireddy07/DL_Deploying_Sentimental_Model.git
+   ```
 2. Open the `SageMaker Project.ipynb` file.
-	```
-		jupyter notebook SageMaker Proejct.ipynb
-	```
+   ```
+   	jupyter notebook SageMaker Project.ipynb
+   ```
 3. Read and follow the instructions! You can find and download the dataset for this project in the notebook.
-
 
 ### General Outline
 
@@ -33,18 +29,23 @@ This entire project is done on Amazon sagemaker and uses some heavy GPU instance
 - Step 5: Testing the Model
 - Step 6: Deploying the model for testing
 - Step 7: Use the model for testing
-- Step 6  Deploy the model for the web app
-- Step 7  Use the model for the web app
+- Step 6 Deploy the model for the web app
+- Step 7 Use the model for the web app
 
 ### Libraries
 
 The list below represents main libraries and its objects
 for the project.
+
 - [Amazon SageMaker](https://ap-northeast-2.console.aws.amazon.com/sagemaker/home?region=ap-northeast-2#/landing) (Build, train, and deploy a model)
 - [tensorflow](https://www.tensorflow.org/) (LSTM classifier)
 
 ### Delete the Endpoint
-Remember to always __SHUT DOWN YOUR ENDPOINT__ if you are no longer using it. You are charged for the length of time that the endpoint is running so if you forget and leave it on you could end up with an unexpectedly large bill.
+
+Remember to always **SHUT DOWN YOUR ENDPOINT** if you are no longer using it. You are charged for the length of time that the endpoint is running so if you forget and leave it on you could end up with an unexpectedly large bill.
+
 ```
 	predictor.delete_endpoint()
 ```
+
+# [License](https://github.com/ravireddy07/DL_Deploying_Sentimental_Model/edit/master/LICENSE)
